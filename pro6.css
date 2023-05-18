@@ -7,8 +7,6 @@
 }
 
 body {
-    /* font-family: 'Assistant', sans-serif; */
-    /* font-family: 'Satisfy', cursive; */
     font-family: 'Heebo', sans-serif;
     color: #000000;
     direction: rtl;
@@ -70,10 +68,9 @@ button {
     max-height: 600px;
 }
 
-
 /* ======== Media's ======== */
 /* X-Small device (portrait phones, less than 576px) */
-@media screen and (min-width: 340px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .container {
         flex-direction: column;
         gap: 50px;
